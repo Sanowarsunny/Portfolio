@@ -11,7 +11,7 @@
         <div class="section-title">
             <span>Contact Me</span>
             <h2>Contact Me</h2>
-            <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+            {{-- <p></p> --}}
         </div>
 
         <div class="row">
@@ -24,11 +24,11 @@
                     <i class="bx bx-share-alt"></i>
                     <h3>Social Profiles</h3>
                     <div class="social-links">
-                    <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-                    <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-                    <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-                    <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
-                    <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                    <a href="{{ url('https://twitter.com/i/flow/signup') }}" target="_new" class="twitter"><i class="bi bi-twitter"></i></a>
+                    <a href="{{ url('https://www.facebook.com') }}" target="_new" class="facebook"><i class="bi bi-facebook"></i></a>
+                    <a href="{{ url('https://www.instagram.com/') }}" target="_new" class="instagram"><i class="bi bi-instagram"></i></a>
+                    <a href="{{ url('https://github.com/Sanowarsunny') }}" target="_new" class="google-plus"><i class="bi bi-github"></i></a>
+                    <a href="{{ url('https://www.linkedin.com/') }}" target="_new" class="linkedin"><i class="bi bi-linkedin"></i></a>
                     </div>
                 </div>
                 </div>
@@ -36,14 +36,14 @@
                 <div class="info-box mt-4">
                     <i class="bx bx-envelope"></i>
                     <h3>Email Me</h3>
-                    <p>contact@example.com</p>
+                    <p>sanowarhossain3843@gmail.com</p>
                 </div>
                 </div>
                 <div class="col-md-6">
                 <div class="info-box mt-4">
                     <i class="bx bx-phone-call"></i>
                     <h3>Call Me</h3>
-                    <p>+1 5589 55488 55</p>
+                    <p>+8801990-879856</p>
                 </div>
                 </div>
             </div>

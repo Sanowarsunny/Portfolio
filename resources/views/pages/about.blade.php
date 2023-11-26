@@ -11,7 +11,9 @@
       <div class="section-title">
         <span>About Me</span>
         <h2>About Me</h2>
-        <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+        <p>I am highly motivated to work in software engineering and looking for an opportunity to put my
+          knowledge into use. Creative thinking, problem-solving, teamwork and technical skills are my
+          qualities.</p>
       </div>
 
       <div class="row">
@@ -21,22 +23,22 @@
             <div class="row">
               <div class="col-lg-6">
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Name:</strong> <span>Laura Thomso</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.example.com</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+123 456 7890</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>New York, USA</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Name:</strong> <span>Md Sanowar Hossain</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>sanowarhossain3843@gmail.com</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+8801990-879856</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Dhaka, BD</span></li>
                 </ul>
               </div>
               <div class="col-lg-6">
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>30</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Master</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>PhEmailone:</strong> <span>email@example.com</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
+                  {{-- <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>30</span></li> --}}
+                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>BSc in CSE</span></li>
+                  {{-- <li><i class="bi bi-chevron-right"></i> <strong>PhEmailone:</strong> <span>email@example.com</span></li> --}}
+                  {{-- <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li> --}}
                 </ul>
               </div>
             </div>
-            <div class="row mt-n4">
+            {{-- <div class="row mt-n4">
               <div class="col-md-6 mt-5 d-md-flex align-items-md-stretch">
                 <div class="count-box">
                   <i class="bi bi-emoji-smile" style="color: #20b38e;"></i>
@@ -68,21 +70,21 @@
                   <p><strong>Awards</strong> rerum asperiores dolor alias quo reprehenderit eum et nemo pad der</p>
                 </div>
               </div>
-            </div>
+            </div> --}}
           </div><!-- End .content-->
 
           <div class="skills-content ps-lg-4">
             <div class="progress">
-              <span class="skill">HTML <i class="val">100%</i></span>
+              <span class="skill">HTML <i class="val">90%</i></span>
               <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
 
             <div class="progress">
-              <span class="skill">CSS <i class="val">90%</i></span>
+              <span class="skill">PHP <i class="val">85%</i></span>
               <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
 
@@ -90,6 +92,18 @@
               <span class="skill">JavaScript <i class="val">75%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div class="progress">
+              <span class="skill">CSS <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div class="progress">
+              <span class="skill">Database <i class="val">70%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
           </div>

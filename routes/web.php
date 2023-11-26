@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\homeController;
+use App\Http\Controllers\HomeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,11 +18,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/home',[homeController::class,'home'])->middleware('throttle:5,1');
-Route::get('/pages/about',[homeController::class,'about']);
-Route::get('/pages/resume',[homeController::class,'resume']);
-Route::get('/pages/contact',[homeController::class,'contact']);
-Route::get('/pages/portfolio',[homeController::class,'portfolio']);
+Route::get('/home',[HomeController::class,'home'])->middleware('throttle:5,1');
+Route::get('/pages/about',[HomeController::class,'about']);
+Route::get('/pages/resume',[HomeController::class,'resume']);
+Route::get('/pages/contact',[HomeController::class,'contact']);
+Route::get('/pages/portfolio',[HomeController::class,'portfolio']);
 
 
 

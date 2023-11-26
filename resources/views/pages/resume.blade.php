@@ -10,12 +10,17 @@
       <div class="section-title">
         <span>My Resume</span>
         <h2>My Resume</h2>
-        <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+        <p>
+          <a href="{{ asset('assets/file/SANOWAR.pdf') }}" download="SANOWAR.pdf" class="btn btn-primary">
+            <i class="fas fa-download"></i> Download Resume
+          </a>
+          
+      </p>
       </div>
 
       <div class="row">
         <div class="col-lg-6">
-          <h3 class="resume-title">Sumary</h3>
+          {{-- <h3 class="resume-title">Summary</h3>
           <div class="resume-item pb-0">
             <h4>Alice Barkley</h4>
             <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
@@ -26,48 +31,58 @@
               <li>alice.barkley@example.com</li>
             </ul>
             </p>
-          </div>
-
+          </div> --}}
           <h3 class="resume-title">Education</h3>
           <div class="resume-item">
-            <h4>Master of Fine Arts &amp; Graphic Design</h4>
-            <h5>2015 - 2016</h5>
-            <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-            <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
+            <h4>B.Sc. in Computer Science and
+              Engineering</h4>
+            <h5>2018 - 2022</h5>
+            <p><em>American International University Bangladesh (AIUB) </em></p>
+            <p>CGPA:3.55 out of 4</p>
           </div>
           <div class="resume-item">
-            <h4>Bachelor of Fine Arts &amp; Graphic Design</h4>
-            <h5>2010 - 2014</h5>
-            <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-            <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
+            <h4>HSC(Science)</h4>
+            <h5>2014 - 2016</h5>
+            <p><em>
+              Chattogram Cantonment Public College-(CCPC)</em></p>
+            <p> GPA: 5 out of 5 </p>
+          </div>
+          <div class="resume-item">
+            <h4>SSC(Science)</h4>
+            <h5>2012 - 2014</h5>
+            <p><em>Chattogram Cantonment Board High School </em></p>
+            <p> GPA: 5 out of 5 </p>
           </div>
         </div>
         <div class="col-lg-6">
-          <h3 class="resume-title">Professional Experience</h3>
+          <h3 class="resume-title">Experience</h3>
           <div class="resume-item">
-            <h4>Senior graphic design specialist</h4>
-            <h5>2019 - Present</h5>
-            <p><em>Experion, New York, NY </em></p>
+            <h4>LARAVEL Framwork</h4>
+            <h5>2023 - Present</h5>
+            <p><em>OSTAD TEAM</em></p>
             <p>
             <ul>
-              <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
-              <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project. </li>
-              <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
-              <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
+              <li>Better understand laravel command</li>
             </ul>
             </p>
           </div>
           <div class="resume-item">
-            <h4>Graphic design specialist</h4>
-            <h5>2017 - 2018</h5>
-            <p><em>Stepping Stone Advertising, New York, NY</em></p>
+            <h4>E-Commerce Website</h4>
             <p>
             <ul>
-              <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).</li>
-              <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
-              <li>Recommended and consulted with clients on the most appropriate graphic design</li>
-              <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
-            </ul>
+              <li> This project developed by HTML, JAVA Script and CSS. This project is fully
+                responsible and it is only fronted part. Here I create about, cart, product list, products details and also
+                contact page.</li>
+              </ul>
+            </p>
+          </div>
+          <div class="resume-item">
+            <h4>Internship</h4>
+            <p>
+            <ul>
+              <li> I have done my Salesforce training in Inovi Solution and learn Salesforce Developer and
+                Salesforce Administrator. Also I have completed many Super Badges.</li>
+              </ul>
             </p>
           </div>
         </div>
