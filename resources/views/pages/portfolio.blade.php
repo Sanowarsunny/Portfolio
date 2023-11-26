@@ -9,9 +9,9 @@
         <div class="container">
   
           <div class="section-title">
-            <span>My Portfolio</span>
-            <h2>My Portfolio</h2>
-            <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+            <span>My Projects</span>
+            <h2>My Projects</h2>
+            {{-- <p> </p> --}}
           </div>
   
           <ul id="portfolio-flters" class="d-flex justify-content-center">

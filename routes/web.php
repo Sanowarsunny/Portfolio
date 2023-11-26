@@ -22,7 +22,7 @@ Route::get('/home',[HomeController::class,'home'])->middleware('throttle:5,1');
 Route::get('/pages/about',[HomeController::class,'about']);
 Route::get('/pages/resume',[HomeController::class,'resume']);
 Route::get('/pages/contact',[HomeController::class,'contact']);
-Route::get('/pages/portfolio',[HomeController::class,'portfolio']);
+Route::get('/pages/projects',[HomeController::class,'portfolio']);
 
 
 

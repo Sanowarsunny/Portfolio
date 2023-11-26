@@ -7,7 +7,7 @@
       <li><a class="nav-link scrollto" href="{{ asset('pages/about') }}">About</a></li>
       <li><a class="nav-link scrollto" href="{{ asset('pages/resume') }}">Resume</a></li>
       {{-- <li><a class="nav-link scrollto" href="{{ asset('pages/services') }}">Services</a></li> --}}
-      <li><a class="nav-link scrollto " href="{{ asset('pages/portfolio') }}">Portfolio</a></li>
+      <li><a class="nav-link scrollto " href="{{ asset('pages/projects') }}">Projects</a></li>
       
       <li><a class="nav-link scrollto" href="{{ asset('pages/contact') }}">Contact</a></li>
     </ul>
