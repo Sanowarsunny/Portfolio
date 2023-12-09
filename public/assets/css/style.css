@@ -113,7 +113,7 @@ h6 {
   align-items: center;
   justify-content: space-between;
   padding: 10px 15px;
-  color: #ffb727;
+  color: #27ffac;
   white-space: nowrap;
   transition: 0.3s;
   font-size: 12px;
@@ -134,7 +134,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #ffb727;
+  color: #ff27b7;
 }
 
 .navbar .dropdown ul {

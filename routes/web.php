@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ContactController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 
@@ -21,8 +22,15 @@ Route::get('/', function () {
 Route::get('/home',[HomeController::class,'home'])->middleware('throttle:5,1');
 Route::get('/pages/about',[HomeController::class,'about']);
 Route::get('/pages/resume',[HomeController::class,'resume']);
-Route::get('/pages/contact',[HomeController::class,'contact']);
 Route::get('/pages/projects',[HomeController::class,'portfolio']);
+//Route::get('/pages/contact',[HomeController::class,'contact']);
+
+
+// Show the contact form
+Route::get('/contact', [ContactController::class, 'showForm'])->name('contact.form');
+
+// // Handle the contact form submission
+// Route::post('/contact/submit', [ContactController::class, 'insert'])->name('contact.submit');
 
 
 
